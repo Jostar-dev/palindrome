@@ -1,0 +1,7 @@
+print("Welcome to Joel's palindrome checker")
+
+user_input = input("what is the word")
+if user_input[0:] == user_input[:0]:
+    print("the word is a palindrome")
+else:
+    print("ït is not a palindrome")
